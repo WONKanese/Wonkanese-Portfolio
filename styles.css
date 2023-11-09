@@ -1,0 +1,98 @@
+.main-title {
+  font-size: 70px;
+  height: 50px;
+}
+
+.contact {
+  margin: 60px auto;
+  border: 6px solid black;
+  width: 70%;
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+}
+
+.link>a {
+  color: #2a4074;
+}
+
+.link-img {
+  vertical-align: middle;
+  width: 2em;
+  height: 2em;
+  margin-right: 10px;
+}
+
+.sections>div {
+  margin: 30px auto;
+  border: 6px solid black;
+  width: 70%;
+}
+
+.experience>div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.xp-info {
+  font-size: 20px;
+}
+
+.xp-barrier {
+  width: 70%;
+  height: 4px;
+  background-color: black;
+}
+
+.about {
+  background-color: hsl(47, 77%, 53%);
+}
+
+.projects {
+  background-color: hsl(198, 68%, 53%);
+}
+
+.about-me {
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+#image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.image {
+  cursor: pointer;
+}
+
+#image-title {
+  margin-left: 10px;
+}
+
+#image-description {
+  margin-left: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-size: 30px;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: hsl(0, 50%, 50%);
+}

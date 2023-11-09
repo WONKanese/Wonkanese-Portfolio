@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="bgManipulate.js"></script>
+  <title>Wonkanese</title>
+</head>
+<body>
+  <div class="sections">
+    <h1 class="main-title title">Wonkanese Website</h1>
+    <div class="about">
+      <h2 class="title" style="margin-bottom: 0px;">About</h2>
+      <h3 class="subtitle" style="margin-top: 0px;">Who I am, my goals and purpose of this website</h3>
+      <p class="about-me">
+        Hello, I'm Harrison (@Wonkanese), currently a 10th-grade student residing in Calgary, AB.
+        My interest in computer science has grown from a mere curiosity to a deep passion.
+        I've cultivated my skills in various programming languages, such as C++, Java, Python, C, C# and JavaScript.
+        <br>With a clear vision for success, my ultimate goal is to become a programmer.
+        <br><br>
+        In the ever-evolving tech landscape, I firmly believe that excellence is the path to achievement.
+        I aspire to reach the pinnacle, to belong to the 1% of the 1% in this dynamic field.
+        Whether it's tackling intricate problems or crafting innovative software, I am dedicated to continuous
+        improvement and pushing my boundaries.
+        <br><br>
+        <b>This website serves as a gateway into my journey, showcasing my projects and the obstacles I conquer.</b>
+      </p>
+    </div>
+    <div class="projects">
+      <h2 class="title">Projects</h2>
+      <h3 class="subtitle">Click The Images!</h3>
+      <div id="image-container">
+        <div class="image"
+          onclick="showDescription('Modern Chess', 'This is a game I made in the unity game engine, it is a variation of chess. Can be played here: <a href=\'https://wonkanese.itch.io/modern-chess\' target=\'_blank\'>Modern Chess</a>')">
+          <img src="https://www.museumofplay.org/app/uploads/2021/09/Chess-sq.jpg" alt="Modern Chess" width="150px"
+            height="150px">
+        </div>
+        <div class="image"
+          onclick="showDescription('Cursed Shadows', 'Another game I made in the unity game engine, it was only made in 3 days for the Ludem Dare 54 game jam. It is a simple 2d platformer side scroller where you have to defeat enemies in limited lighting. You can play the game here: <a href=\'https://ldjam.com/events/ludum-dare/54/cursed-shadows\' target=\'_blank\'>Cursed Shadows</a>')">
+          <img src="https://static.jam.host/content/a14/95/z/5cff1.jpg.320x256.fit.jpg" alt="Cursed Shadows"
+            width="150px" height="150px">
+        </div>
+        <div class "image"
+          onclick="showDescription('GangLang', 'This is a simple esolang that I created, it is a simple programming language where all the keywords are gang related. You can write and compile the code here: <a href=\'https://wonkanese.github.io/GangLang/\' target=\'_blank\'>GangLang Compiler</a>')">
+          <img
+            src="https://image.spreadshirtmedia.com/image-server/v1/mp/products/T127A1PA4192PT21X6Y10D1011863355W1836H1198Cx000000/views/1,width=1200,height=630,appearanceId=1,backgroundColor=F2F2F2,modelId=2846,crop=design/187-gang-signs-one-eight-seven-small-buttons.jpg"
+            alt="GangLang" width="150px" height="150px">
+        </div>
+        <div class="image"
+          onclick="showDescription('Chicken Basement', 'This is a work in progress unity project. This will be my biggest video game I have ever made. Chicken Basement is an idle game where you collect chickens and combine chickens for more chicken types in order to make the most money. I am undetermined when I will release but I am certain on finishing the game.')">
+          <img src="https://openclipart.org/image/2000px/318252" alt="Chicken Basement" width="150px" height="150px">
+        </div>
+      </div>
+      <div id="description-box">
+        <h2 id="image-title"></h2>
+        <p id="image-description"></p>
+      </div>
+    </div>
+    <div class="experience">
+      <h2 class="title">Experience</h2>
+      <div class="cs50">
+        <h3 class="subtitle">HarvardX CS50's Introduction to Computer Science | edX</h3>
+        <img src="https://i.ytimg.com/vi/8mAITcNt710/maxresdefault.jpg" height="250px" width="400px">
+        <p class="xp-info"><b>I am currently about halfway through the course due to procrastination.</b><br><br>
+          This is a comprehensive and highly respected online course that is free if you are not paying for a certificate.
+          In other words, the education is free but the verification is paid.
+          <br><br>This course is an introductory computer science course. It covers programming, algorithms, data structures, web development and more.</p>
+      </div>
+      <div class="xp-barrier"></div>
+      <div class="leetcode">
+        <h3 class="subtitle">LeetCode Progress</h3>
+        <img src="https://theme.zdassets.com/theme_assets/9008406/036323c6afd10392aa5b7e3a2eb7557d17955c81.png" height="250px" width="600px">
+        <p class="xp-info">LeetCode is a website that offers a collection of coding challenges and interview questions to help individuals improve their coding and problem-solving skills. LeetCode is a popular resource for technical interview preparation and for practicing coding skills.<br><br>
+        </p>
+        <img src="leetcode.png" height="250px" width="600px">
+        <p class="xp-info">I have been using LeetCode for a bit and here is an image of my progress as of Tuesday, November 7, 2023. It's not currently very good, but you have to start somewhere. I may overtake you one day if you are laughing, little man.</p>
+      </div>
+    </div>
+  </div>
+  <div class="contact">
+    <h2 class="title">Contact</h2>
+    <h3 class="link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/2048px-YouTube_social_red_circle_%282017%29.svg.png" alt="Your Image" class="link-img"><a href="https://www.youtube.com/channel/UCUh5PU6epQtIwC_k6xeFbVQ" target="_blank">Youtube</a></h3>
+    <h3 class="link"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="Your Image" class="link-img"><a href="https://github.com/WONKanese" target="_blank">Github</a></h3>
+    <h2>Contact me at my buisness email: northkoreanwillywonka@gmail.com</h2>
+    <h2>Or dm me at Wonkanese in discord</h2>
+  </div>
+</body>
+</html>
