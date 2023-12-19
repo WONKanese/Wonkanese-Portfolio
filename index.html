@@ -8,9 +8,16 @@
   <title>Wonkanese</title>
 </head>
 <body>
+  <h1 class="main-title title">Wonkanese Website</h1>
+  <div class="header">
+    <button class="header-button" onclick="scrollToId('about')">About</button>
+    <button class="header-button" onclick="scrollToId('project')">Projects</button>
+    <button class="header-button" onclick="scrollToId('experience')">Experience</button>
+    <button class="header-button" onclick="scrollToId('contact')">Contact</button>
+  </div>
   <div class="sections">
-    <h1 class="main-title title">Wonkanese Website</h1>
-    <div class="about">
+    
+    <div class="about" id="about">
       <h2 class="title" style="margin-bottom: 0px;">About</h2>
       <h3 class="subtitle" style="margin-top: 0px;">Who I am, my goals and purpose of this website</h3>
       <p class="about-me">
@@ -27,7 +34,7 @@
         <b>This website serves as a gateway into my journey, showcasing my projects and the obstacles I conquer.</b>
       </p>
     </div>
-    <div class="projects">
+    <div class="projects" id="project">
       <h2 class="title">Projects</h2>
       <h3 class="subtitle">Click The Images!</h3>
       <div id="image-container">
@@ -57,7 +64,7 @@
         <p id="image-description"></p>
       </div>
     </div>
-    <div class="experience">
+    <div class="experience" id="experience">
       <h2 class="title">Experience</h2>
       <div class="cs50">
         <h3 class="subtitle">HarvardX CS50's Introduction to Computer Science (2022) | edX</h3>
@@ -78,7 +85,7 @@
       </div>
     </div>
   </div>
-  <div class="contact">
+  <div class="contact" id="contact">
     <h2 class="title">Contact</h2>
     <h3 class="link"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/2048px-YouTube_social_red_circle_%282017%29.svg.png" alt="Your Image" class="link-img"><a href="https://www.youtube.com/channel/UCUh5PU6epQtIwC_k6xeFbVQ" target="_blank">Youtube</a></h3>
     <h3 class="link"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="Your Image" class="link-img"><a href="https://github.com/WONKanese" target="_blank">Github</a></h3>

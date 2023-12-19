@@ -92,6 +92,26 @@
   text-align: center;
 }
 
+.header {
+  height: 15vh;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header-button {
+  height: 11vh;
+  width: 14vw;
+  border: 2px solid white;
+  background-color: rgb(62, 104, 156);
+  font-size: 30px;
+}
+.header-button:hover {
+  border: 5px solid white;
+  background-color: rgb(74, 122, 181);
+}
+
 body {
   font-family: sans-serif;
   background-color: hsl(0, 50%, 50%);

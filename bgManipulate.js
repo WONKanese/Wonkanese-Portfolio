@@ -22,3 +22,10 @@ function showDescription(title, description) {
   document.getElementById("image-description").innerHTML = description;
   document.getElementById("description-box").style.display = "block";
 }
+
+function scrollToId(elementId) {
+  const element = document.getElementById(elementId);
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' });
+  }
+}
