@@ -69,6 +69,10 @@
 
 .image {
   cursor: pointer;
+  transition: transform .3s ease;
+}
+.image:hover {
+  transform: scale(1.1);
 }
 
 #image-title {
